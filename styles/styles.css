@@ -1,0 +1,36 @@
+body {
+  background-color: #f3f3f4;
+  color: var(--gray);
+}
+
+.custom-container {
+  padding: 1rem 2rem;
+}
+
+.add-card-button-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.add-card-button-container .btn {
+  height: 2.5rem;
+}
+
+/* Icons */
+.icon {
+  width: 16px;
+  height: 16px;
+}
+.location-icon {
+  background: url(../assets/sprite-icone.png) -24px -70px;
+}
+.pencil-icon {
+  background: url(../assets/sprite-icone.png) 0px -70px;
+}
+.trash-icon {
+  background: url(../assets/sprite-icone.png) -454px 2px;
+}
+.plus-icon {
+  background: url(../assets/sprite-icone.png) -407px 64px;
+}

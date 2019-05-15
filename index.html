@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Travel Factory Test</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="custom-container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body d-flex">
+              <div
+                class="card-picture mr-4 d-flex flex-column justify-content-center"
+              >
+                <img src="assets/john-smith.jpg" class="rounded-circle" />
+                <h6 class="job-description text-center">
+                  Graphics designer
+                </h6>
+              </div>
+              <div class="card-information">
+                <h4 class="card-title name">John Smith</h4>
+                <div class="location-data d-flex align-items-center mb-3">
+                  <div class="location-icon icon"></div>
+                  <div class="location">Riviera State 32/106</div>
+                </div>
+                <div class="company-data">
+                  <div class="company-name font-weight-bold">
+                    Twitter, Inc.
+                  </div>
+                  <div class="company-location">
+                    <div class="company-address">795 Folsom Ave, Suite 600</div>
+                    <div class="company-address2">San Francisco, CA 94107</div>
+                    <div class="phone">
+                      <span>P:</span><span class="phone-number">(123)456-7890<span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="d-flex justify-content-end">
+               <div class="action-buttons p-1">
+                <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                  <div class="pencil-icon icon"></div>
+                </button>
+                <button class="delete-button btn btn-link pl-0">
+                  <div class="trash-icon icon"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body d-flex">
+              <div
+                class="card-picture mr-4 d-flex flex-column justify-content-center"
+              >
+                <img src="assets/alex jonathan.jpg" class="rounded-circle" />
+                <h6 class="job-description text-center">
+                  CEO
+                </h6>
+              </div>
+              <div class="card-information">
+                <h4 class="card-title name">Alex Johanatan</h4>
+                <div class="location-data d-flex align-items-center mb-3">
+                  <div class="location-icon icon"></div>
+                  <div class="location">Riviera State 32/106</div>
+                </div>
+                <div class="company-data">
+                  <div class="company-name font-weight-bold">
+                    Twitter, Inc.
+                  </div>
+                  <div class="company-location">
+                    <div class="company-address">795 Folsom Ave, Suite 600</div>
+                    <div class="company-address2">San Francisco, CA 94107</div>
+                    <div class="phone">
+                      <span>P:</span><span class="phone-number">(123)456-7890<span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="d-flex justify-content-end">
+               <div class="action-buttons p-1">
+                <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                  <div class="pencil-icon icon"></div>
+                </button>
+                <button class="delete-button btn btn-link pl-0">
+                  <div class="trash-icon icon"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body d-flex">
+              <div
+                class="card-picture mr-4 d-flex flex-column justify-content-center"
+              >
+                <img src="assets/monica smith.jpg" class="rounded-circle" />
+                <h6 class="job-description text-center">
+                  Marketing manager
+                </h6>
+              </div>
+              <div class="card-information">
+                <h4 class="card-title name">Monica Smith</h4>
+                <div class="location-data d-flex align-items-center mb-3">
+                  <div class="location-icon icon"></div>
+                  <div class="location">Riviera State 32/106</div>
+                </div>
+                <div class="company-data">
+                  <div class="company-name font-weight-bold">
+                    Twitter, Inc.
+                  </div>
+                  <div class="company-location">
+                    <div class="company-address">795 Folsom Ave, Suite 600</div>
+                    <div class="company-address2">San Francisco, CA 94107</div>
+                    <div class="phone">
+                      <span>P:</span><span class="phone-number">(123)456-7890<span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="d-flex justify-content-end">
+               <div class="action-buttons p-1">
+                <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                  <div class="pencil-icon icon"></div>
+                </button>
+                <button class="delete-button btn btn-link pl-0">
+                  <div class="trash-icon icon"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+          <div class="col-12 col-lg-4 mb-3">
+            <div class="card">
+              <div class="card-body d-flex">
+                <div class="card-picture mr-4 d-flex flex-column justify-content-center">
+                  <img src="assets/michael zimber.jpg" class="rounded-circle" />
+                  <h6 class="job-description text-center">
+                    Sales manager
+                  </h6>
+                </div>
+                <div class="card-information">
+                  <h4 class="card-title name">Michael Zimber</h4>
+                  <div class="location-data d-flex align-items-center mb-3">
+                    <div class="location-icon icon"></div>
+                    <div class="location">Riviera State 32/106</div>
+                  </div>
+                  <div class="company-data">
+                    <div class="company-name font-weight-bold">
+                      Twitter, Inc.
+                    </div>
+                    <div class="company-location">
+                      <div class="company-address">795 Folsom Ave, Suite 600</div>
+                      <div class="company-address2">San Francisco, CA 94107</div>
+                      <div class="phone">
+                        <span>P:</span><span class="phone-number">(123)456-7890<span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <div class="action-buttons p-1">
+                  <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                    <div class="pencil-icon icon"></div>
+                  </button>
+                  <button class="delete-button btn btn-link pl-0">
+                    <div class="trash-icon icon"></div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+              <div class="col-12 col-lg-4 mb-3">
+                <div class="card">
+                  <div class="card-body d-flex">
+                    <div class="card-picture mr-4 d-flex flex-column justify-content-center">
+                      <img src="assets/sandra smith.jpg" class="rounded-circle" />
+                      <h6 class="job-description text-center">
+                        Graphics designer
+                      </h6>
+                    </div>
+                    <div class="card-information">
+                      <h4 class="card-title name">Sandra Smith</h4>
+                      <div class="location-data d-flex align-items-center mb-3">
+                        <div class="location-icon icon"></div>
+                        <div class="location">Riviera State 32/106</div>
+                      </div>
+                      <div class="company-data">
+                        <div class="company-name font-weight-bold">
+                          Twitter, Inc.
+                        </div>
+                        <div class="company-location">
+                          <div class="company-address">795 Folsom Ave, Suite 600</div>
+                          <div class="company-address2">San Francisco, CA 94107</div>
+                          <div class="phone">
+                            <span>P:</span><span class="phone-number">(123)456-7890<span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <div class="action-buttons p-1">
+                      <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                        <div class="pencil-icon icon"></div>
+                      </button>
+                      <button class="delete-button btn btn-link pl-0">
+                        <div class="trash-icon icon"></div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+                  <div class="col-12 col-lg-4 mb-3">
+                    <div class="card">
+                      <div class="card-body d-flex">
+                        <div class="card-picture mr-4 d-flex flex-column justify-content-center">
+                          <img src="assets/janeth carton.jpg" class="rounded-circle" />
+                          <h6 class="job-description text-center">
+                            Graphics designer
+                          </h6>
+                        </div>
+                        <div class="card-information">
+                          <h4 class="card-title name">Janet Carton</h4>
+                          <div class="location-data d-flex align-items-center mb-3">
+                            <div class="location-icon icon"></div>
+                            <div class="location">Riviera State 32/106</div>
+                          </div>
+                          <div class="company-data">
+                            <div class="company-name font-weight-bold">
+                              Twitter, Inc.
+                            </div>
+                            <div class="company-location">
+                              <div class="company-address">795 Folsom Ave, Suite 600</div>
+                              <div class="company-address2">San Francisco, CA 94107</div>
+                              <div class="phone">
+                                <span>P:</span><span class="phone-number">(123)456-7890<span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <div class="action-buttons p-1">
+                          <button class="edit-button btn btn-link pr-0" data-toggle="modal" data-target="#editContactModal">
+                            <div class="pencil-icon icon"></div>
+                          </button>
+                          <button class="delete-button btn btn-link pl-0">
+                            <div class="trash-icon icon"></div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+    </div>
+
+    <div
+      class="add-card-button-container"
+    >
+      <button
+        class="btn btn-link border-info rounded-circle"
+        data-toggle="modal"
+        data-target="#addContactModal"
+      >
+        <div class="icon plus-icon"></div>
+      </button>
+    </div>
+
+
+<!-- Due to time constaints i've duplicated create/edit modals, idealy this should be one html for both -->
+
+    <!-- Create Modal -->
+
+    <div class="modal add-contact-modal" id="addContactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Add a new contact</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="nameInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="position">Position</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="position"
+                  id="positionInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="location"
+                  id="locationInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="company"
+                  id="companyInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="companyAddress">Company Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="companyAddress"
+                  id="companyAddressInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="companyAddress2">Company Address 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="companyAddress2"
+                  id="companyAddress2Input"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="phone"
+                  id="phoneInput"
+                />
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button class="btn btn-primary submit-button" type="submit">
+              Submit
+            </button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Modal -->
+
+    <div class="modal edit-contact-modal" id="editContactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Edit contact</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="nameInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="position">Position</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="position"
+                  id="positionInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="location"
+                  id="locationInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="company"
+                  id="companyInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="companyAddress">Company Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="companyAddress"
+                  id="companyAddressInput"
+                />
+              </div>
+              <div class="form-group">
+                <label for="companyAddress2">Company Address 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="companyAddress2"
+                  id="companyAddress2Input"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="phone"
+                  id="phoneInput"
+                />
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button class="btn btn-primary submit-button" type="submit">
+              Submit
+            </button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
